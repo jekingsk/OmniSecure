@@ -1,6 +1,6 @@
 import psutil
 from datetime import datetime
-
+from event_bus import add_event 
 LOG_FILE = "../logs/events.log"
 
 # Common safe ports
@@ -23,7 +23,9 @@ def monitor_network():
                 if port not in SAFE_PORTS:
                     log_event(
                         "INFO",
-                        f"Unusual outbound connection to {ip}:{port}"
+                        f"Unusual outbound connection to {ip}:{port}",
+                        add_event(f"Unusual outbound connection to {ip}:{port}")
+
                     )
 
         except Exception:

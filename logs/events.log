@@ -296,3 +296,49 @@
 2026-02-02 20:10:40.654134 | INFO | Unusual outbound connection to 127.0.0.1:49672
 2026-02-02 20:10:40.654134 | INFO | Unusual outbound connection to 127.0.0.1:63804
 2026-02-02 20:10:40.654134 | INFO | Unusual outbound connection to 127.0.0.1:49671
+2026-02-05 08:36:40.674579 | INFO | Security Monitoring Agent started
+2026-02-05 08:36:40.824311 | INFO | Training anomaly detection model
+2026-02-05 08:36:41.079475 | INFO | Anomaly detection model trained
+2026-02-05 08:40:42.286398 | INFO | Security Monitoring Agent started
+2026-02-05 08:40:42.439327 | INFO | Training anomaly detection model
+2026-02-05 08:40:42.703211 | INFO | Anomaly detection model trained
+2026-02-05 08:41:51.322906 | INFO | Security Monitoring Agent started
+2026-02-05 08:41:51.479428 | INFO | Training anomaly detection model
+2026-02-05 08:41:51.745918 | INFO | Anomaly detection model trained
+2026-02-05 08:42:23.491051 | INFO | Security Monitoring Agent started
+2026-02-05 08:42:23.641183 | INFO | Training anomaly detection model
+2026-02-05 08:42:23.902642 | INFO | Anomaly detection model trained
+2026-02-05 08:42:23.912151 | WARNING | High CPU process: System Idle Process (PID 0) using 1532.9% CPU
+2026-02-05 08:42:29.227440 | WARNING | High CPU process: System Idle Process (PID 0) using 1590.4% CPU
+2026-02-05 08:42:34.391797 | WARNING | High CPU process: System Idle Process (PID 0) using 1594.3% CPU
+2026-02-05 08:42:39.552980 | WARNING | High CPU process: System Idle Process (PID 0) using 1591.2% CPU
+2026-02-05 08:42:44.722372 | WARNING | High CPU process: System Idle Process (PID 0) using 1586.1% CPU
+2026-02-05 08:42:44.932291 | CRITICAL | Anomalous system behavior detected (AI)
+2026-02-05 08:42:49.942782 | WARNING | High CPU process: System Idle Process (PID 0) using 1588.5% CPU
+2026-02-05 08:42:50.111666 | CRITICAL | Anomalous system behavior detected (AI)
+2026-02-05 08:42:55.122496 | WARNING | High CPU process: System Idle Process (PID 0) using 1582.4% CPU
+2026-02-05 08:43:00.306640 | WARNING | High CPU process: System Idle Process (PID 0) using 1589.0% CPU
+2026-02-05 08:43:05.484500 | WARNING | High CPU process: System Idle Process (PID 0) using 1584.9% CPU
+2026-02-05 08:43:10.689590 | WARNING | High CPU process: System Idle Process (PID 0) using 1577.8% CPU
+2026-02-05 08:43:15.866199 | WARNING | High CPU process: System Idle Process (PID 0) using 1589.9% CPU
+2026-02-05 08:43:21.041924 | WARNING | High CPU process: System Idle Process (PID 0) using 1590.9% CPU
+2026-02-05 08:43:26.217304 | WARNING | High CPU process: System Idle Process (PID 0) using 1583.7% CPU
+2026-02-05 08:43:31.389294 | WARNING | High CPU process: System Idle Process (PID 0) using 1584.9% CPU
+2026-02-05 08:43:36.573221 | WARNING | High CPU process: System Idle Process (PID 0) using 1584.8% CPU
+2026-02-05 08:43:41.742552 | WARNING | High CPU process: System Idle Process (PID 0) using 1586.7% CPU
+2026-02-05 08:43:46.912925 | WARNING | High CPU process: System Idle Process (PID 0) using 1588.5% CPU
+2026-02-05 08:43:52.099054 | WARNING | High CPU process: System Idle Process (PID 0) using 1586.3% CPU
+2026-02-05 08:43:57.277023 | WARNING | High CPU process: System Idle Process (PID 0) using 1587.6% CPU
+2026-02-05 08:44:02.442907 | WARNING | High CPU process: System Idle Process (PID 0) using 1589.1% CPU
+2026-02-05 08:44:07.611888 | WARNING | High CPU process: System Idle Process (PID 0) using 1581.0% CPU
+2026-02-05 08:44:12.785911 | WARNING | High CPU process: System Idle Process (PID 0) using 1589.1% CPU
+2026-02-05 08:44:17.979707 | WARNING | High CPU process: System Idle Process (PID 0) using 1585.6% CPU
+2026-02-05 08:44:23.221890 | WARNING | High CPU process: System Idle Process (PID 0) using 1588.8% CPU
+2026-02-05 08:44:28.388971 | WARNING | High CPU process: System Idle Process (PID 0) using 1589.4% CPU
+2026-02-05 08:44:33.554009 | WARNING | High CPU process: System Idle Process (PID 0) using 1590.3% CPU
+2026-02-05 08:44:38.722702 | WARNING | High CPU process: System Idle Process (PID 0) using 1590.1% CPU
+2026-02-05 08:44:43.893732 | WARNING | High CPU process: System Idle Process (PID 0) using 1592.7% CPU
+2026-02-05 08:44:49.061058 | WARNING | High CPU process: System Idle Process (PID 0) using 1585.5% CPU
+2026-02-05 08:44:54.256080 | WARNING | High CPU process: System Idle Process (PID 0) using 1586.8% CPU
+2026-02-05 08:44:59.486505 | WARNING | High CPU process: System Idle Process (PID 0) using 1574.8% CPU
+2026-02-05 08:45:04.658302 | WARNING | High CPU process: System Idle Process (PID 0) using 1584.9% CPU

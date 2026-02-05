@@ -1,6 +1,6 @@
 import psutil
 from datetime import datetime
-
+from event_bus import add_event 
 LOG_FILE = "../logs/events.log"
 
 SUSPICIOUS_KEYWORDS = [
@@ -33,13 +33,15 @@ def monitor_processes():
                         "CRITICAL",
                         f"Suspicious process detected: {name} (PID {proc.pid})"
                     )
+                    add_event(f"Suspicious process detected: {name}")
 
             # 🟡 High CPU usage detection
-            if cpu > 70:
+            if cpu > 70:    
                 log_event(
                     "WARNING",
                     f"High CPU process: {name} (PID {proc.pid}) using {cpu}% CPU"
                 )
-
+                add_event(f"Suspicious process detected: {name}")
+                
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             continue
